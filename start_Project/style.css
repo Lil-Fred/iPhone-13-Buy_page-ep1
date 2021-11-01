@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SFUIText-Regular", "Inter", sans-serif;
+    /* font-weight: 300; */
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+
+
+
+
+  /*======================APPLE FONT IMPORTING================*/
+
+  @font-face {
+    font-family: "SFUIText-Regular";
+    src: url(./src/sf_ui-font/SFUIText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SFUIText-Medium";
+    src: url(./src/sf_ui-font/SFUIText-Medium.ttf);
+}
+
+@font-face {
+    font-family: "SFUIText-Bold";
+    src: url(./src/sf_ui-font/SFUIText-Bold.ttf);
+}
+
+@font-face {
+    font-family: "SFUIText-Semibold";
+    src: url(./src/sf_ui-font/SFUIText-Semibold.ttf);
+}
+
+@font-face {
+    font-family: "SFUIText-Light";
+    src: url(./src/sf_ui-font/SFUIText-Light.ttf);
+}
+
+@font-face {
+    font-family: "SFUIText-Heavy";
+    src: url(./src/sf_ui-font/SFUIText-Heavy.ttf);
+}
